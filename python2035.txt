@@ -1,0 +1,13 @@
+>> 1). What is Python?
+	>> Python is high-level, General-Purpose, Interpreted Programming language that is designed to be easy to read, easy to write, and easy to learn.
+--------------------------------------------------------------------------------------
+>> Python Supports multiple programming styles such as:
+
+>>> Procedural Programming
+>>> Object-Oriented Programming(OOP)
+>> Functional Programming
+---------------------------------------------------------------------------------------------------
+Notes:
+	Python is a language that helps us to communicate with computer using simple English-like syntax.
+It is widely used because it reduce development time and works in almost every domain.
+--------------------------------------------------------------------------------------
