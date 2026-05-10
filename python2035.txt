@@ -11,3 +11,404 @@ Notes:
 	Python is a language that helps us to communicate with computer using simple English-like syntax.
 It is widely used because it reduce development time and works in almost every domain.
 --------------------------------------------------------------------------------------
+
+
+2). Who Created Python?
+--------------------------------------------
+>> Python was created by Guido Van Rossum in 1989 and officially released in 1991.
+-----------------------------------------------------------------------------------
+Python's name is inspired by the comedy show "Monty Python's Flying Circus" not the snake.
+-----------------------------------------------------------
+
+3). High-Level VS Low-Level Language
+-----------------------------------------
+✅ High-Level Language
+
+A high-level language is closer to human language and easier to understand.
+
+
+Example:- 
+print("Hello world")
+------------------------------------------------------------
+
+* Python
+* Java 
+* C#
+* JavaScript
+
+Benefits:
+---------
+* Easy Syntax
+* Faster Development
+* Easy Debugging
+------------------------------------------------------------------------
+
+a = 10
+b = 20
+print(a+b)
+
+------------------------------------------------------
+
+✅ Low-Level Language
+------------------------------------------------------------------------
+Low-Level language are closer to machine language and difficult for humans.
+------------------------------------------
+
+Example:
+* Assembly language
+* Machine Code(Binary Digit-0,1)
+------------------------------------------------------------------------
+Benefits:
+---------
+* Very Fast Execution
+* Direct hardware control
+------------------------------------------------------------------------
+
+Notes:
+
+High-Level Languages are like English, Low-Level languages are like binary Signals.
+-----------------------------------------------------------------------------------
+
+
+4). Compiler VS Interpreter (Most Important)
+-----------------------------------------------------------------
+✅ Compiler
+A Compiler translate the entire code at one into machine code.
+
+10-Lines NewFile - nameof the file.exe-Output
+
+Example:-
+------------------------
+* C 
+* C++
+* Java (Java Used both Compiler + Interpreter concept)
+------------------------------------------
+Characteristics:
+-------------------
+* Faster Execution
+* Errors shown after full compilation.
+------------------------------------------------------------------------------------
+
+✅ Interpreter
+
+An interpreter translates the program line by line.
+--------------------------------------------------------------------
+Example:-
+--------------------------------
+* Python
+* JavaScript
+* Ruby
+--------------------------------------------------------------------
+Characteristics:
+------------------------
+* Easier Debugging
+* Slower than compiled language
+* Executes directly
+------------------------------------------------------------------------------
+Example: If error is in line 10, Python executes line 1-9 and stop at line 10.
+-----------------------------------------------------------------------------------
+
+Comparison Table
+--------------------------------------------------------
+|    Feature	|   Compiler	|  Interpreter	|
+--------------------------------------------------------
+|Translation	|Whole Program	| Line by line	|
+----------------------------------------------------
+|Ex-Speed	|Fast		|Slower		|
+--------------------------------------------------------
+|Error-Display	|After Compilation | Immediately|
+------------------------------------------------------------
+|Example	|C,C++		| Python, JavaScript|
+-------------------------------------------------------------------------------
+
+5). What is General-Purpose Programming Language?
+-------------------------------------------------------------------------------
+A general-Purpose language is used to build any type of software.
+--------------------------------------------------------------------
+Python Can be used for:
+---------------------------
+* Websites
+* Mobile apps
+* Data Science
+* AI/ML
+* Automation
+* Games
+* Desktop apps
+etc
+-----------------------------------------------------------------------
+
+Notes:
+
+C is also general-purpose, but Python preferred because it is simpler.
+------------------------------------------------------------------------------------
+>> Python Programming
+-------------------------------------
+
+6). What is Program?
+---------------------------------
+A Program is a set of instructions given to the computer to perform a specific task.
+----------------------------
+Example:-
+
+A calculator Program:
+
+* Take input from user
+* Perform Operations [A/Q to operator]
+* Display Output
+
+
+------------------------------------------------------------
+
+num1 = 10  # data 
+num2 = 5  # data
+
+sum1 = num1+num2  # instruction
+print(sum1) #<- output = 15
+
+--------------------------------------------------------------------------------
+Explain program as a "recipe" for computer 
+------------------------------------------------------------------------
+
+7). Why Python is Popular??
+------------------------------
+>> Python is Popular because:
+
+✅1. Python syntax looks like English
+
+Example:
+
+if 10>5:
+    print("yes")
+------------------------------------------------
+✅ 2. Less Code(Shorter Programs)
+
+Java require many lines of code, Python requires fewer.
+
+-----------------------------------------------------
+✅3. Cross Platform
+
+Python Works on:
+* Windows
+* Linux
+* macOS
+
+Write once, run anywhere
+-----------------------------------------------------------------------
+
+✅4. Huge Community Support
+
+Python has millions of developers worldwide.
+-------------------------------------------------------------------------------
+
+✅ 5. Large Libraries and Frameworks
+
+Python Provides ready-made tools like:
+
+* NumPy
+* Pandas
+* Matplotlib
+* TensorFlow
+* Django
+* Flask
+* CherryPy
+* PyPDF2
+etc
+----------------------------------------------------------------------------
+
+✅ 6. Supports Automation
+Python can automate repetitive task
+
+Example:
+
+* Sending emails automatically.
+* File renaming
+* Excel automation
+
+----------------------------------------------------------------------
+✅ 7. High Demand in Industry
+
+Python is required in:
+
+* IT companies
+* Startups
+* Data-based companies
+
+----------------------------------------------------
+
+8. Features of Python
+
+✅ Key-Features
+1. Simple and Readable Code
+	>> Python code is clean and understandable.
+2.Interpreted language
+	>> No need to compile
+3. Dynamically Typed
+	>> No need to define datatype.
+	>> x = 10  # <-integer
+	>> x = "python"  <- string
+4. Object-Oriented
+
+	>> Python Supports OOP Concept like:
+	>> class
+	>> object
+	>> 4-Pillars of OOPs
+		>> 1. Inheritance 
+			>> 1.Single/Simple
+			>> 2. Multiple 
+			>> 3. Multilevel
+			>> 4. Hierarchical
+			>> 5. Hybrid
+		>> 2. Polymorphism
+			>> 1. Overriding
+			>> 2. Overloading
+		>> 3. Encapsulation
+			>> 1.Public
+			>> 2.Protected
+			>> 3. Private
+		>> 4. Data-Abstraction
+5. Open Source
+	>> Python is free to use and distribute.
+6. Portable
+	>> Python code can run on different systems.
+7. Large Standard Library
+	>> Python Comes with built-in modules like:
+	>> os
+	>> math
+	>> datetime
+	>> random
+--------------------------------------------------------
+
+8. Where is Python Used in Industry:
+
+Python is Used in:
+
+✅ Web Development
+Framework
+ 	>> 1. Django
+	>> 2. Flask
+Example use case:
+	>> Building e-commerce websites
+	>> Banking portal
+	>> Admin dashboards
+✅ Data Science and Analysts
+Python is the #1 languages for data handling.
+
+Libraries:
+	>> Pandas
+	>> NumPy
+	>> Matplotlib
+Example:
+	* Analyzing sales report
+	* stock market analysis
+✅ Artificial Intelligence and Machine Learning
+	Python is widely used in AI due to libraries
+Libraries:
+* TensorFlow
+* Scikit-learn
+*PyTorch
+
+✅ Automation and Scripting
+Example Tasks
+* auto file organization
+* automation testing
+* server automation
+
+✅ Cybersecurity and Ethical Hacking
+Python Used for:
+* penetration testing
+* writing scripts
+* network scanning tools
+✅ IoT(Internet of Things)
+Python can control hardware devices using Raspberry Pi.
+
+----------------------------------------------------------------------------------
+
+10. Python Learning Path
+
+A proper learning path should be:
+
+Python Basics 
+* variables
+* datatype
+* operator
+* input/output
+-----------------------------------------
+2.Data types
+	>> Primitive Or Non Primitive
+	>> Sequence Data types
+		>> String
+		>> List 
+		>> Tuples
+	>> Mapping Data Type -
+		>> dictionary
+	>> sets in Python
+	>> Numbers
+		>>int
+		>>float
+		>>complex
+	>> Boolean
+		>> True
+		>> False
+	>> None
+>> Conditions in Python
+	>> if-else-elif
+>> Loops in Python
+	>> Entry Controlled Loop
+		>> For - in [range]
+		>> while
+	>> Exists Controlled loops
+>> Functions
+	>> Built-in functions
+	>> User-defined function
+>> Exceptional Handling
+	>> try, except , else, finally, raise
+>> Class and Object 
+	>> Python Supports OOP Concept like:
+	>> class
+	>> object
+	>> 4-Pillars of OOPs
+		>> 1. Inheritance 
+			>> 1.Single/Simple
+			>> 2. Multiple 
+			>> 3. Multilevel
+			>> 4. Hierarchical
+			>> 5. Hybrid
+		>> 2. Polymorphism
+			>> 1. Overriding
+			>> 2. Overloading
+		>> 3. Encapsulation
+			>> 1.Public
+			>> 2.Protected
+			>> 3. Private
+		>> 4. Data-Abstraction
+>> File Handling
+	>> Reading Files in Python
+	>> Writing Files in Python
+>> Lambda Function
+	>> filter()
+	>> map()
+	>> reduce()
+>> List Comprehension in Python
+
+>> Decorator in Python
+
+>> Generator
+
+>> JSON
+
+>> API in Python
+
+>> Minimal Project of Python
+--------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
