@@ -1,0 +1,445 @@
+1). What is Python?
+--------------------------------------
+>> Python is high-level, general-purpose, interpreted programming language that is designed to be easy to read, easy to write, and easy to learn.
+---------------------------------------------------------------------------------------
+
+>> Python is a language that helps us to communicate with computer using simple English-like syntax.
+It is widely used because it reduces development time and works in almost every domain.
+---------------------------------------------------------------------------------------------
+Example-
+
+print("Hello world")
+-----------------------------------------------------------------------------------------------
+2). Who Created Python?
+----------------------------------------
+>> Python was created by Guido Van Rossum in 1989 and official released in 1991.
+-----------------------------------------------------------------------------------------
+
+Python's name is inspired by the comedy show "Monty Python's Flying Circus", not the snake.
+------------------------------------------------------------------------------------------------
+
+3). High-Level vs Low-Level language
+------------------------------------------------------------------------------------------
+✅ High-Level Language
+------------------------------------------
+A high-level language is closer to human language and easier to understand.
+-------------------------------------------------------------------------------------------
+Example:- 
+-------------------
+>> Python 
+>> Java 
+>> C#
+>> JavaScript
+>> etc.
+-----------------------------------------------------------------------------------------------------
+
+Benefits:
+----------------
+>> Easy Syntax
+>> Faster Development
+>> Easy Debugging --> Bug --> Debug
+----------------------------------------------------------------------------------------------
+
+✅ Low-Level Language
+------------------------------
+Low-Level Languages are close to machine and difficult for humans.
+-------------------------------------------------------------------------------------------
+Example:-
+-----------------
+>> Assembly Language
+>> Machine Code(0,1)
+--------------------------------------------
+>> Benefits
+-------------
+* Very Fast execution
+* Direct hardware control
+-----------------------------------------------------------
+
+Notes:
+
+High-level languages are like English, Low-levelnguages are like binary signals.
+----------------------------------------------------------------------------------------------
+
+4). Compiler VS Interpreted
+------------------------------------------
+A compiler translate the entire code at once into machine code.
+---------------------------------------------------------------------------------------------
+Example:
+
+* C
+* C++
+* Java(Java uses both compiler+ Interpreter concept)
+
+----------------------------------------------------------------------------
+>> Characteristics:
+---------------------
+>> Faster Execution
+>> Errors shown after full compilation
+----------------------------------------------------------------------------------------
+
+>> ✅ Interpreter
+
+An interpreter translate the program line by line.
+
+Examples:
+
+* Python
+* JavaScript
+* Ruby
+
+---------------------------------------------------------------------------
+
+>> Characteristics:
+-------------------------------
+>> Easier Debugging
+>> Slower than compiled languages
+>> Executes directly.
+-------------------------------------------------------------------------------
+
+
+5). general-purpose
+
+---------------------------------
+
+>> A general-Purpose language is used to build any type of software.
+
+Python can be used for:
+--------------------------------
+i). Websites
+ii). Mobile apps
+iii). Data Science
+iv). AI/ML
+v). Automation
+vi). Games
+vii). Desktops apps
+viii). Data Scientist
+ix). Data Analyst
+x). IoT
+etc.
+--------------------------------------------------------------------------------------------------
+C is also general-purpose languages, but Python preferred because it is simpler.
+-----------------------------------------------------------------------------------------------
+
+>> What is Program?
+-------------------------------------------
+A program is a set of instructions given to the computer to perform a specific task.
+------------------------------------------------------------------------------------------
+Example:
+
+A calculator:
+
+* Take input 
+* perform operations
+* Display output
+
+---------------------------
+step-1
+a = 15
+b = 20
+
+step - 2
+
+print(a+b) # add operations
+
+step-3
+process - 35
+
+
+step - 4
+
+output - 35
+---------------------------------------------------------
+
+>>> Why python is popular?
+--------------------------------------------------
+Python is popular because:
+
+✅1. Easy Syntax
+	>> Python syntax looks like English.
+	>> if x>=8:
+		print("Eligible to Vote")
+	>> else:
+		print("Not Eligible to Vote")
+✅2. Less Code
+	>> Java required many lines, Python required fewer.
+✅3. Cross Platform
+	>> Python works on:
+	>> Windows
+	>> Linux
+	>> macOS
+	>> Write once, run everywhere
+✅4. Huge Community Support
+	>> Python has millions of developers worldwide.
+✅5. Large libraries and Frameworks
+	>> Python provides ready-made tools like:
+	>> NumPy
+	>> Pandas
+	>> Matplotlib
+	>> TensorFlow
+	>> Django
+	>> Flask
+	>> CherryPy
+	>> PyPDF2
+	>> API[Application Programming Interface]
+	>> etc.
+✅6. Supports Automation
+Python can automate repetitive tasks.
+Example:
+* Sending emails automatically
+* File renaming
+* Excel automation
+etc
+
+✅7. High Demand in Industry
+Python required in:
+* IT Companies
+* Startups
+* Data-based companies
+etc 
+-----------------------------------------------------------------------------------------
+
+8.Fatures of Python
+------------------------------------------
+✅ Key Features
+1. Simple and Readable code.
+2. Interpreted language
+3.  Dynamically typed
+	int a;
+	a = 20;
+a = 20 : int
+a = "Hello world" : string
+
+4. Object-Oriented
+* class
+* object
+* inheritance
+* polymorphism
+* Encapsulation
+* Data Abstraction
+
+
+5. Open-Source
+Python is free to use and distribute.
+
+
+6. Portable
+Python code can run on different system.
+
+7. Large Standard Library.
+* OS
+* math
+* datetime
+* random
+* abc [abstract base classes]-- OOPs
+>> etc.
+-----------------------------------------------------------------
+
+✅ 9. Where is python used in Industry.
+-------------------------------------------
+Python used in:
+✅ Web Development
+Framework:
+	>> Django
+	>> Django
+Example:
+	>> Building e-commerce websites
+	>> Banking Portal
+	>> Admin Dashboard
+✅ Data Science and Analysis
+Python is the #1 language for data handling.3
+Libraries:
+	>> Pandas
+	>> NumPy
+	>> Matplotlib
+	>> TensorFlow
+Example:
+	>> analyze sales report
+	>> stock market analysis
+----------------------------------------------------------------------------------
+✅ Artificial Intelligence and Machine Learning
+----------------------
+Library:
+>> SciKit-learn
+>> PyTorch
+>> TensorFlow
+-----------------------------------------------------------
+
+✅ Automation and Scripting
+>> Example tasks
+>> auto file organization
+>> automation testing
+>> server automation
+>> Network automation-ParaMiko and NetMiko
+------------------------------------------------------------
+✅ Cybersecurity and Ethical Hacking
+Used for:
+	Penetration testing
+	writing scripts
+	network scanning tools
+-------------------------------------------------------------------
+✅ IoT(Internet of Thing)
+Python  can control hardware devices using Raspberry Pi.
+-----------------------------------------------------------------------------------------------------
+✅ Python Installation(Windows/Mac/Linux)
+------------------------------------------------
+
+1). Install Python on Windows
+--------------------------------------
+step-1: Download Python
+------------------------
+1. Open Browser
+2. Search Python official website
+3. Open: python.org
+4. Clock: Downloads
+5. Download latest version(Example: Python 3.14.2)
+
+------------------------------------------------------------------------------
+Step - 2: Run Setup file
+-----------------------
+1. Open download .exe file
+2. Important:  Tick the checkbox ✅Add Python to PATH
+3. Click Install Now
+
+Not:
+if you forget to tick "Add Python to PATH", Python will not run in CMD properly.
+----------------------------------------------------------------------------------------------------
+
+Stp-3: Verify Installion
+--------------------------
+1. Open Command prompt(CMD)
+2. Type:
+	python --version
+---------------------------------------------------------
+Bash-
+	python -v
+--------------------------------------------------
+
+Step:-4: Check pip installation
+-------------------------------------------------
+pip[preferred installer program] is used to install libraries.
+--------------------
+pip --version
+----------------------------------------------------------------------------------------------
+
+>> 2). Install Python on Mac
+----------------------------
+Step 1: Download Python
+	1. Go to python.org
+	2. Download Mac version.pkg
+--------------
+Step 2:
+	1. Open the downloaded file
+	2. Click Continue -> Install
+-----------------
+Step 3:
+	Open terminal and type
+	python3 --version
+Bash
+	pip3 --version
+--------------------------------------------------------------------------------
+>> 3). Install Python on Linux(Ubuntu)
+-------------------------------------
+Step 1: Update System
+------------
+sudo apt update
+-----------------
+Step 2: Install Python
+sudo apt install python3
+-------------------------------
+Step 3: Install pip
+sudo apt install python3-pip
+--------------------------------------------------------
+Step 4: Verfiy
+--------------
+python3 --version
+pip3 --version
+------------------------------------------------------------------------------------------
+>> Install of Anoconda [IDE-Integrated Development and Environment]
+----------------------------------------------------------------------
+
+Anoconda is Python distribution used mainly for:
+>> Data Science
+>> Machine Learning
+>> AI
+>> Jupyter Notebook
+>> Spyder IDE
+>> It comes with Python+1000+libraries pre-installed
+-------------------------------------------------------------------------
+1). Install Anoconda on Windows
+--------------
+Step 1: Download anaconda
+-------------------------------------
+1. Open Browser
+2. Search: Anaconda Download
+3. Open official Website: anaconda.com
+4. Click Download
+5. Select Windows
+6. Download 64-bit Graphical Installer
+-----------------------------------------------------------------------
+
+Step:2 Run Installer
+----------------
+1. Open downloaded .exe file
+2. Click Next
+3. Accept License Agreement: I Agree
+4. Select: Just Me(Recommended) -> Next
+5. Choose installation location -> Next
+-----------------------------------------------------------------------------------
+Step - 3: Finish Installation
+-------------------------------
+After installation, click Finish
+--------------------------------------------------------------------------------------------
+
+✅ Step 4: Verify Installation
+
+Open Anaconda Prompt and type:
+
+conda --version
+-----------------------------------------------------------------
+
+✅ 2 Install Anaconda on Mac
+
+--------------------------
+Step 1: Download
+----------
+	1. Go to anaconda.com
+	2. Download Mac installer .pkg
+------------
+Step 2: Install
+	1. Open .pkg file
+	2. Continue -> Install
+------------
+Step 3: Verify
+	Open Terminal
+	>> conda --version
+	>> python3 --version
+------------------------------------------------------------------
+✅ 3. Install Anaconda on Linux(Ubuntu)
+
+Step 1: Download installer
+	Go to anaconda website and copy Linux download link
+	or download using terminal
+
+---------------------
+Step 2: Install
+Press:
+	Enter (to continue)
+	yes(to accept license)
+	enter(location)
+	yes(initialize anaconda)
+
+-----------------
+Step 3: Restart Terminal
+---------------
+Then check
+conda --version
+
+------------------------------------------------------------
+
+
+
+
+
+
+
+
