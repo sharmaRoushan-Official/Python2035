@@ -1,0 +1,129 @@
+1. Reverse a string without slicing:
+>> “Hello World”
+
+ANSWER: s="Hello World"
+        print(s)
+        s=(::-1)
+        
+2. Count words in a sentence:
+>> “A Quick Brown Fox Jump Over the Lazy Dog” 
+
+ANSWER: s = ("A Quick Brown Fox Jump Over the Lazy Dog”)
+        print("len(s)) 
+        40      
+
+ 3. Remove duplicate characters.
+>> “Carrot”
+
+Answer: data=("Carrot") if
+
+
+4.What is difference between lists and sets?
+
+ANSWER:               List                       |                      Sets
+                                                 |
+          A list contants of square bracket[]    | A set contants of curly bracket{} 
+                                                 |
+                                                 
+5.Can sets contains lists? If Yes How If no why?
+
+ANSWER: No, As list is none hasable.
+
+6.Why sets are faster?
+
+ANSWER: Sets are faster because they are built using a data structure called a Hash Table.  
+
+7. Difference between remove () and discard ()
+
+ANSWER:               Remove                    |                  Discard 
+              Removes a particular elements     | Same as Remove but do not show error on empty cell
+
+8. How many methods to insert elements in the list? Total Method?
+
+ANSWER: append() :- add elements one by one 
+        insert ():- add elements specifically  
+        extend():- add many elements 
+9. How many methods to delete elements in the lists? Total Method?
+
+ANSWER: Pop
+        Delete
+        Remove
+        Discard 
+        Clear
+10. How many Operators in Python Write their name in Explain?
+
+ANSWER: 7 operators
+       
+        Arithmetic operators
+        Assignment operators
+        Logical operators
+        Membership operators
+        Mathamatical operators
+
+11. Write precedence Rule of arithmetic in Python? 
+
+ANSWER:   1.+
+          2.()
+          3.-
+          4./
+          5.*
+
+12. How to sort elements in list using slicing method?
+>> [5,11,14,7,8,3,2,5,9]
+
+ANSWER: num = [5,11,14,7,8,3,2,5,9]
+        num = sort.num 
+        print ("num")
+13. What is Dictionary?
+
+ANSWER: A Dictionary in python is used to store data in a form of key-value.
+
+14. How many methods to create dictionary?
+
+ANSWER: key must be unique
+        using bracket
+        key 
+        value
+        items
+
+15. How many methods to access value in dictionary?
+
+ANSWER: Using Key
+        Using Get()
+
+16. How many methods to delete elements in dictionary?
+
+ANSWER: Pop
+        Clear
+        Delete
+        Popitem
+
+17. How to perform mathematical operations in sets write method name?
+
+ANSWER: using specific built in 
+
+18. What is packing variable in tuple? Explain using example?
+
+ANSWER: Tuple packing means to store multiple data in a Tuple 
+    E.X :- data = ("jo Ram,27.9,India")
+           print=("data")
+
+19. What is unpacking variables in tuple? Explain using example?
+
+ANSWER: Tuple unpacking means to separate data in a Tuple 
+   E.X:- name,marks,country=data
+         print("name")
+         print("marks")
+         print("country")
+
+20. Difference between sets and dictionary?
+
+ANSWER:                set                        |                         dictionary
+                                                  |
+              A set contants curly brakets {}     |       A Dictionary in python is used to store data in a form of key-value.
+         
+
+ 
+
+
+
