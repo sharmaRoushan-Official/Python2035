@@ -1,0 +1,238 @@
+Section A – Very Short Answer Questions
+10 × 1 = 10 Marks
+
+Q1. Which function is used to open a file in Python?
+Ans:-file = open("example.txt", "r") 
+         Here r means read mode 
+
+Q2. Write the syntax for opening a file in read mode.
+ Ans:- file = open(filename,"mode")
+
+Q3. What is a lambda function?
+Ans:- lambda Function  is a small,anoynomus,(nameless)Function written in one single line
+
+Q4. Write one example of a lambda function that adds two numbers.
+Ans:- add=(lambda a, b: a+b)
+          print(add(5, 3)) # output 8
+
+Q5. What is List Comprehension?
+Ans:-List Comrehension in python creates a new list form an exsiting iterable in one line.
+
+Q6. Which Python module is commonly used to work with JSON data?
+Ans:-import json module is commonly used to work with JSON data
+
+Q7. What does JSON stand for?
+Ans:-JSON Stand for Java Scrpit Object Module.
+
+Q8. What is an API?
+Ans:-API Stands For Apllication Programming Interface
+API Allows two different applications communciate with each other
+
+Q9. What is a decorator in Python?
+Ans:-Decorator is a function that modfies anthor function behaviour without changing its code
+
+Q10. What is a generator function?
+Ans:A generator is a special function that returns an iterator and provides values one at a time using yield instead of return.
+
+
+Section B – Short Answer / Coding Questions
+10 × 2 = 20 Marks
+
+Q11. Write Python code to create a file named data.txt and write the following text into it:
+Python is easy to learn.
+Python is powerful.
+Ans:- With open(data.txt,"w") as file:
+                   file.write("Python is easy to leran")
+                   file.write("Python is powerful")
+
+Q12. Write Python code to read the complete contents of data.txt.
+Ans:-With open(data.txt,"r") as file:
+                content = file.read()
+                print(content)
+
+Q13. Write a lambda function to find the square of a number.
+Ans:-square=(lambda x: x**2)
+         print(square)
+
+Q14. Using lambda, find the maximum of two numbers
+Ans:-max_numbers=(lambda a, b: max(a,b))
+         print(max_numbers(10, 20))
+
+Q15. Create a list containing squares of numbers from 1 to 10 using List Comprehension
+Ans:-squares = [x ** 2 for x in range(1, 11)]
+         print(squares)
+
+Q16. Create a list containing only even numbers from 1 to 20 using List Comprehension
+Ans:- even_num[i for i in range(1, 21) if i % 2== 0]
+          print(even_num)
+
+Q.17.Write Python code to convert the following dictionary into a JSON string 
+        student = {'name': 'Rahul', 'age': 22, 'course': 'Python'}
+
+Ans:- import json 
+         student = {'name': 'Rahul', 'age': 22, 'course': 'Python'}
+          json_data1=json.dumps(student)
+          print(json_data1)
+
+Q.18.Write Python code to convert the following JSON string into a Python dictionary:
+         data = '{"name": "Rahul", "age": 22}'
+Ans:- import json
+         data = '{"name": "Rahul", "age": 22}'
+         python_dict=json.loads(data)
+         print(python_dict)
+
+Q19. Write the basic syntax of a Python decorator and explain the role of @.
+Ans:-def decorator_function(func):
+    def wrapper():
+        func()
+    return wrapper
+
+@decorator_function
+def my_function():
+    print("Hello")
+
+my_function = decorator_function(my_function)
+So, @ provides a short and readable way to decorate a function.
+          
+          
+Q20. Write a generator function that generates numbers from 1 to 5 using yield.
+Ans:-A generator is a special function that returns an iterator and provides values one at a time using yield instead of return.
+         def numbers():
+    for i in range(1, 6):
+        yield i
+
+for num in numbers():
+    print(num)
+
+ 
+Section C – Long Answer / Programming Questions
+4 × 5 = 20 Marks
+
+Q21. File Reading and Writing – 5 Marks
+Write a Python program that:
+1. Creates a file named student.txt.
+2. Writes the names of 5 students into the file.
+3. Reads the file.
+4. Displays all student names on the screen.
+Use appropriate file modes and with open().
+Ans:-Create and write to student.txt
+with open("student.txt", "w") as file:
+    file.write("Aarav\n")
+    file.write("Priya\n")
+    file.write("Rahul\n")
+    file.write("Sneha\n")
+    file.write("Vikram\n")
+
+with open("student.txt", "r") as file:
+    names = file.read()
+
+print("Student Names:")
+print(names)
+
+
+Q22. Lambda + List Comprehension – 5 Marks
+Write a Python program that:
+1. Creates the list: numbers = [1,2,3,4,5,6,7,8,9,10]
+2. Uses List Comprehension to create a list of even numbers.
+3. Uses a lambda function to calculate the square of every even number.
+4. Displays the final result.
+Expected output: [4, 16, 36, 64, 100]
+Ans:-numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+Create a list of even numbers using List Comprehension
+even_numbers = [num for num in numbers if num % 2 == 0]
+
+Calculate the square of every even number using lambda
+squares = list(map(lambda x: x ** 2, even_numbers))
+
+print(squares)
+
+Q23. JSON + API – 5 Marks
+Answer the following:
+(a) What is JSON and why is it commonly used with APIs?
+ Ans:-JSON Stands for Java Script Objct Notation 
+          it is light-weight data format to store and exchange data 
+          {
+    "name": "Rahul",
+    "age": 20,
+    "course": "Python"
+}
+
+JSON is commonly used with APIs (Application Programming Interfaces) because:
+
+It is simple and easy to understand.
+
+It is lightweight, so data can be transferred quickly.
+
+It is supported by many programming languages.
+
+It is commonly used to send and receive data between a client and a server.  
+
+(b)Write Python code using the requests library to send a GET request to an API.
+import requests
+url = "https://api.example.com/data"
+response = requests.get(url)
+print(response.status_code)
+print(response.json())
+Explain the purpose of requests.get(), response.status_code, and responsejson()
+
+Ans:-import requests
+
+url = "https://api.example.com/data"
+
+response = requests.get(url)
+
+print(response.status_code)
+print(response.json())
+
+Explanation
+requests.get(url) — Sends an HTTP GET request to the specified URL. GET requests are commonly used to retrieve data from an API.
+
+response.status_code — Returns the HTTP status code received from the server.
+
+200 → Request was successful
+
+404 →Worng Url
+
+500 →  Internal Server error
+
+response.json() — Converts the JSON response from the API into a Python object, usually a dictionary or list, so the data can be processed in Python.
+
+For example, if the API returns:
+
+{"name": "Alice", "age": 25}
+
+then response.json() produces:
+
+{"name": "Alice", "age": 25}
+
+Q24. Decorator + Generator – 5 Marks
+Part A – Decorator: Create a decorator named login_required that prints "Login Required" before executing
+a function.
+@login_required
+def dashboard():
+print("Welcome to Dashboard")
+
+Ans:-def login_required(func):
+    def wrapper():
+        print("Login Required")
+        func()
+    return wrapper
+
+
+@login_required
+def dashboard():
+    print("Welcome to Dashboard")
+
+
+dashboard()
+
+Part B – Generator: Create a generator function named count_numbers() that generates numbers from 1 to
+5 using yield. Display the generated values using a for loop.
+
+Ans:- Def count_numbers():
+                  for i in range(1,6):
+                            yield i
+
+for number in count_numbers():
+     print(number) 
